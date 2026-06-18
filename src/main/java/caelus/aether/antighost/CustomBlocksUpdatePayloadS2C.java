@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2026 CaelusAether.
+ * This file is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+ * You should have received a copy of the license along with this work.
+ * If not, see <https://creativecommons.org/licenses/by-nc/4.0/>.
+ */
 package caelus.aether.antighost;
 
 import net.minecraft.core.BlockPos;
