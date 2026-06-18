@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "antighost",
+  "version": "${version}",
+  "name": "AntiGhost",
+  "description": "Check and eliminate ghost blocks appearing on the client.",
+  "authors": [],
+  "contact": {},
+  "license": "unlicense",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "caelus.aether.antighost.client.AntighostClient"
+    ],
+    "main": [
+      "caelus.aether.antighost.AntiGhost"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
