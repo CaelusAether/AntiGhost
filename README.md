@@ -10,5 +10,5 @@
 By Caelus Aether
 
 ## License
-This project is licensed under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+This project is licensed under the MIT.
 When attributing this work, please use the name: **CaelusAether**.
