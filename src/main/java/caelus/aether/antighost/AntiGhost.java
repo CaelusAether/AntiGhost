@@ -14,7 +14,7 @@ import net.minecraft.server.level.ServerPlayer;
 import org.slf4j.Logger;
 
 public class AntiGhost implements ModInitializer {
-    public static final String MOD_ID = "anticlient ghost";
+    public static final String MOD_ID = "anticlientghost";
     static Logger LOGGER = LogUtils.getLogger();
 
     @Override
