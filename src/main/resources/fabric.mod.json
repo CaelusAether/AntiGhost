@@ -4,9 +4,9 @@
   "version": "${version}",
   "name": "AntiGhost",
   "description": "Check and eliminate ghost blocks appearing on the client.",
-  "authors": [],
+  "authors": ["Caelus Aether"],
   "contact": {},
-  "license": "CC BY-NC 4.0",
+  "license": "MIT License",
   "environment": "*",
   "entrypoints": {
     "client": [
