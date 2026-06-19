@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "antighost",
+  "id": "anticlientghost",
   "version": "${version}",
   "name": "AntiGhost",
   "description": "Check and eliminate ghost blocks appearing on the client.",
