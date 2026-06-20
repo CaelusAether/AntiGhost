@@ -6,6 +6,7 @@
   "description": "Check and eliminate ghost blocks appearing on the client.",
   "authors": ["Caelus Aether"],
   "contact": {},
+  "icon": "icon.png",
   "license": "MIT License",
   "environment": "*",
   "entrypoints": {
