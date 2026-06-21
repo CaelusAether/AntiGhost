@@ -35,7 +35,7 @@ public class AntighostClient implements ClientModInitializer {
         final String category="key.categories.antighost";
         requestBlocks = new KeyMapping("key.antighost.reveal", GLFW_KEY_U, category);
         KeyBindingHelper.registerKeyBinding(requestBlocks);
-        LOGGER.info("(Antighost) 按键已注册");
+        LOGGER.info("按键已注册");
         ClientTickEvents.END_CLIENT_TICK.register(e->keyPressed());
         ClientCommandRegistrationCallback.EVENT.register((dispatcher, registryAccess) -> {
             dispatcher.register(
@@ -45,8 +45,8 @@ public class AntighostClient implements ClientModInitializer {
                     })
             );
         });
-        LOGGER.debug("(Antighost) 指令已注册");
-        LOGGER.debug("(Antighost) Antighost Client Initialized");
+        LOGGER.info("指令已注册");
+        LOGGER.info("Antighost Client Initialized");
         repair();
     }
 
